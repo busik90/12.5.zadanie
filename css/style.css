@@ -71,8 +71,9 @@ html {
 
 main {
 	width: 100%;
-	height: 100vh;
-	padding: 2rem;
+	min-width: 6rem;
+	min-height: 100vh;
+	padding: 10vh;
 	font-family: sans-serif;
 	color: white;
 	background-color: #56a4eb;
@@ -86,7 +87,7 @@ main, div {
 }
 
 h1, h2, h3, .button {
-	margin: .2rem;
+	margin: .3rem 0;
 }
 
 h1 {
@@ -97,8 +98,15 @@ h1 {
 	font-size: .45rem;
 }
 
+.box {
+	min-height: 1.8rem;
+	margin: .5rem 0;
+}
+
 .button {
-	width: 10rem;
+	max-width: 10rem;
+	width: 70vw;
+	min-width: 4rem;
 	height: .8rem;
 	color: white;
 	background-color: transparent;
