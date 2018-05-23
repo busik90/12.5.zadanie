@@ -127,3 +127,18 @@ a {
 i {
 	margin-right: .2rem;
 }
+
+/* ----- loading icon ----- */
+
+.loading {
+	width: .7rem;
+	height: .7rem;
+	background: url('../img/ajax-loader.gif') no-repeat center center;
+	background-size: cover;
+	z-index: 100;
+	margin: auto 0;
+}
+
+.hide {
+	display: none;
+}

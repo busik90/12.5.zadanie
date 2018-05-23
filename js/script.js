@@ -36,3 +36,17 @@ function createTweet(input) {
     $('.tweet').attr('href', tweet);
   }
 }
+
+$(document).on({
+  ajaxStart: function() {
+    $('h2').addClass('hide');
+    $('h3').addClass('hide');
+    $('.loading').removeClass('hide');
+  },
+
+  ajaxStop: function() {
+    $('h2').removeClass('hide');
+    $('h3').removeClass('hide');
+    $('.loading').addClass('hide');
+  }
+});
